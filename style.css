@@ -35,3 +35,48 @@ body{
 a>img{
     margin-left: 2em;
 }
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.section-home{
+    width: 100%;
+    display: flex;
+}
+
+.h-all-home{
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fsa{
+    margin-top: 10em ;
+    position: fixed;
+    right: 0;
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: auto; 
+    z-index: 1000; 
+
+}
+
+.h1-home{
+    color: #673DE5;
+    letter-spacing: 0.2em;
+}
+
+.arrow{
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    width: 2em;
+}
