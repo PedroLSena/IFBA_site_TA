@@ -193,6 +193,38 @@ main{
     margin-left: 16em;
 }
 
+.button-secundary-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--secundary-color);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 10px;
+    list-style: none;
+    margin-top: 5em;
+    margin-left: 20em;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
 @media screen and (max-width: 600px) {
     .img-fsa{
         position: relative;
