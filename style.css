@@ -120,7 +120,7 @@ main{
 }
 
 .p1-secundary-section{
-    font-size: 18px;
+    font-size: 20px;
     width: 390px;
     color:  var(--secundary-color);
     text-align: left;
@@ -150,6 +150,7 @@ main{
 }
 
 .p3-secundary-section{
+    font-size: 20px;
     color: var(--secundary-color);
     margin-left: 1.5em;
     margin-top: 4em;
