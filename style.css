@@ -194,6 +194,37 @@ main{
     margin-left: 16em;
 }
 
+.tertiary-section{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    height: 68em;
+}
+
+.text-tertiary-section{
+    font-size: 20px;
+    margin-left: 1.5em;
+    margin-top: 4em;
+    width: 540px;
+    display: flex;
+}
+
+.h3-tertiary-section{
+    
+    text-align: center;
+    padding-top: 2em;
+    margin: 0%;
+}
+
+.texto-imagem-feira{
+    font-size: 20px;
+    width: 390px;
+    text-align: left;
+    padding-top: 1em;
+    margin: 0%;
+}
+
+
 @media screen and (max-width: 600px) {
     .img-fsa{
         position: relative;
