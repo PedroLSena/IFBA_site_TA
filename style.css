@@ -331,44 +331,6 @@ main{
     height: 71.8em;
 }
 
-<<<<<<< HEAD
-=======
-.button {
-    background-color: white;
-    color: #6C3EB8;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-.programacao {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    color:  var(--secundary-color);
-}
-.dias {
-    width: 45%;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-td, th {
-    border-bottom: 1px solid white;
-    padding: 8px;
-    color:  var(--secundary-color);
-}
-.h1-quaternary-section {
-    color: var(--secundary-color);
-    text-align: center;
-}
-
->>>>>>> c19bc634142128395a1e41ed6c0e71056a05ba4c
 @media screen and (max-width: 600px) {
     .img-fsa{
         position: relative;
