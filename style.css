@@ -97,7 +97,6 @@ main{
 }
 
 .secundary-section{
-
     width: 100%;
     height: 100%;
     margin: 0%;
@@ -191,7 +190,41 @@ main{
 .img-secundary-section{
     position: relative;
     z-index: 1000;
-    margin-left: 16em;
+}
+
+.button-secundary-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--secundary-color);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 80px;
+    height: 50px;
+    line-height: 10px;
+    list-style: none;
+    margin-top: 5em;
+    margin-left: 10em;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.div-button{
+    display: flex;
 }
 
 .tertiary-section{
@@ -224,6 +257,114 @@ main{
     margin: 0%;
 }
 
+.tertiary_section{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    height: 71.5em;
+}
+
+.img1-tertiary-section{
+    padding-bottom: 5px;
+    z-index: -1;
+    margin-top: 1em;
+    right: 0em;
+    max-width: 60em; 
+    max-height: 60em;
+    height: auto;
+}
+
+.img2-tertiary-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+}
+
+.div1-tertiary-section{
+    display: flex;
+    margin-top: 4em;
+}
+
+.h3-tertiary-section{
+    text-align: center;
+    padding-top: 2em;
+    margin: 0%;
+}
+
+.img-profile{
+    border-radius: 50%;
+    width: 10em;
+}
+.img-profile-div{
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    display: flex;
+}
+.img-profile-all{
+    margin-top: 5em;
+}
+
+.content-tertiary-section{
+    margin-left: 5em;
+}
+
+.p1-img2-tertiary-section{
+    width:902px;
+}
+
+.p-img-profile{
+    margin-left: 1em;
+    width:50em;
+}
+
+.img-igreja{
+    margin-top: 0%;
+}
+
+.quaternary_section{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    height: 71.8em;
+}
+
+.button {
+    background-color: white;
+    color: #6C3EB8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.programacao {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color:  var(--secundary-color);
+}
+.dias {
+    width: 45%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+td, th {
+    border-bottom: 1px solid white;
+    padding: 8px;
+    color:  var(--secundary-color);
+}
+.h1-quaternary-section {
+    color: var(--secundary-color);
+    text-align: center;
+}
 
 @media screen and (max-width: 600px) {
     .img-fsa{
