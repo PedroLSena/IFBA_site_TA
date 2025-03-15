@@ -928,7 +928,7 @@ footer{
         text-align: center;
         padding: 1em;
         position: relative;
-        top: 810px;
+        top: 1200px;
     }
 
     .img-footer {
@@ -955,5 +955,9 @@ footer{
 
     .li-img {
         margin-right: 0.5em;
+    }
+
+    .img-carousel {
+        width: 100%;
     }
 }
