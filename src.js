@@ -17,3 +17,15 @@ const volumeHTML = document.getElementById("accessibility-volume");
 volumeHTML.addEventListener("click", () => {
 	reply(text);
 });
+
+
+// Abrir e fechar o menu no responsivo
+document.addEventListener('DOMContentLoaded', function() {
+	const menuToggle = document.querySelector('.menu-toggle');
+	const ulHeader = document.querySelector('.ul-header');
+
+	menuToggle.addEventListener('click', function() {
+		ulHeader.classList.toggle('active');
+		menuToggle.classList.toggle('active');
+	});
+});
