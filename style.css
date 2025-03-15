@@ -969,7 +969,7 @@ footer{
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1300px) {
+@media screen and (min-width: 992px) and (max-width: 1600px) {
     .content-secundary-section {
         margin-left: 0em;
         width: 100%;
