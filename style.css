@@ -41,7 +41,7 @@ a>img{
 }
 
 main{
-    height: 800em;
+    height: 320em;
     width: 100%;
 }
 
@@ -334,6 +334,7 @@ main{
 .h1-quaternary-section{
     color: var(--secundary-color);
     text-align: center;
+    margin-top: 6em;
     padding-top: 2em;
     margin: 0%;
 }
@@ -498,6 +499,70 @@ ul {
     touch-action: manipulation;
 }
 
+.second-if-img{
+    position: relative;
+}
+
+.qr-section{
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-cont{
+    display: block;
+}
+
+.ul-cont{
+    margin: 1em;
+    width: 40em;
+}
+
+.qr-img-desc{
+    display: block;
+
+}
+
+.qr-desc{
+    display: flex;
+}
+
+.li-cont{
+    margin: 1em;
+}
+.line-qrcode{
+    border-top: 1px solid black;
+    width: 60em;
+}
+
+.qrcode{
+    margin-top: 4em;
+}
+
+footer{
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-footer{
+    margin-bottom: 2em;
+}
+
+.footer-ul{
+    list-style: none;
+}
+.footer-li{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 0.5em;
+}
+
+.li-img{
+    margin-right: 0.5em;
 /* Acessibilidade */
 
 #accessibility-volume {
