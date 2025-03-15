@@ -498,6 +498,15 @@ ul {
     touch-action: manipulation;
 }
 
+/* Acessibilidade */
+
+#accessibility-volume {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
     .img-fsa{
         position: relative;
