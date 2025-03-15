@@ -961,3 +961,42 @@ footer{
         width: 100%;
     }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+    .content-secundary-section {
+        margin-left: 0em;
+        width: 100%;
+    }
+    
+    .all-secundary-section {
+        margin-left: 5em;
+    }
+    
+    .div2-secundary-section {
+        width: -10vw;
+    }
+    
+    .p2-secundary-section {
+        width: 75%;
+    }
+    
+    .div-button {
+        flex-wrap: wrap;
+    }
+    
+    .secundary-section {
+        height: auto;
+    }    
+    
+    .content-tertiary-section {
+        margin-left: 0em;
+    }
+    
+    .all-quaternary-section {
+        margin-left: 0em;
+    }
+}
+
+.img-carousel {
+    width: 20%;
+}
