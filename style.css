@@ -6,6 +6,9 @@ body{
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 :root{
     --primary-color:#673DE5;
@@ -1001,6 +1004,12 @@ footer{
     
     .all-quaternary-section {
         margin-left: 0em;
+    }
+    .img-profile{
+        width: 20%;
+    }
+    .qr-img{
+        width: 10em;
     }
 }
 
