@@ -343,8 +343,161 @@ main{
 }
 .all-quaternary-section{
     margin-top: 4em;
-    margin-left: 10em;
+    margin-left: 8em;
 }
+
+.content-table{
+    display: flex;
+    width: 40em;
+}
+
+.mid-line{
+    height: 5em;
+    align-items: start;
+    justify-content: start;
+    transform: rotate(90deg);
+}
+
+.frst-prt{
+    margin-top: 4em;
+}
+.line-quaternary-section{
+    height: 25em;
+}
+.sec-prt{
+    margin-top: 4em;
+}
+
+.container {
+    max-width: 600px;
+    border-radius: 10px;
+}
+h2 {
+    font-size: 22px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+.hora {
+    color: var(--secundary-color);
+    width: 20%;
+    border-right: 1px solid white;
+}
+.destaque {
+    color: var(--secundary-color);
+    font-weight: bold;
+}
+
+.all-content{
+    display: block;
+    justify-content: start;
+    align-items: center;
+}
+
+.table-frst{
+    margin-top: 4em;
+    margin-left: 8em;
+}
+
+.h2-quaternary-section{
+    color: var(--secundary-color);
+}
+.p1-quaternary-section{
+    color: var(--secundary-color);
+}
+.head-table{
+    margin-bottom: 4em;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2 {
+    color: var(--secundary-color);
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.linha-container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.hora {
+    font-weight: bold;
+    width: 60px;
+    text-align: center;
+    margin-right: 10px;
+}
+.linha {
+    border-left: 2px solid white;
+    padding-left: 10px;
+    flex-grow: 1;
+}
+.destaque {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+.all-table{
+    display: flex;
+}
+
+.ul-quaternary{
+    color: var(--secundary-color);
+}
+.i-quaternary{
+    color: var(--secundary-color);
+}
+
+.span-contet{
+    color: var(--secundary-color);
+}
+
+.button-quaternary-section{
+    margin-top: 10em;
+    margin-left: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--secundary-color);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 80px;
+    height: 50px;
+    line-height: 10px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
 @media screen and (max-width: 600px) {
     .img-fsa{
         position: relative;
