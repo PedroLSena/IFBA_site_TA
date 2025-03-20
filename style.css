@@ -971,6 +971,10 @@ footer{
     .img-carousel {
         width: 100%;
     }
+
+    .h-all-home{
+        margin-bottom: 3em;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1600px) {
