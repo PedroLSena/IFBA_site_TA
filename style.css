@@ -15,6 +15,11 @@ html{
     --secundary-color: #ffffff;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .ul-header{
     padding: 0%;
     margin-top: 2em;
