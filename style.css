@@ -71,6 +71,7 @@ main{
     display: block;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 .img-fsa{
@@ -90,6 +91,7 @@ main{
 }
 
 .arrow{
+    margin-top: 2em;
     transform: translate(-50%, -50%);
     top: 70%;
     left: 50%;
@@ -486,6 +488,15 @@ ul {
     color: var(--secundary-color);
 }
 
+.h-all-home {
+    transform: translate(-50%, -50%);
+    margin-top: 2em;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
 .button-quaternary-section{
     margin-top: 10em;
     margin-left: 10em;
@@ -698,17 +709,24 @@ footer{
         margin-top: 2em;
         top: 77%;
     }
+    .section-home{
+        height: 40em;
+    }
 
     .h-all-home {
-    
+        position: relative;
         transform: translate(-50%, -50%);
-        top: 60%;
-        left: 50%;
+        margin-top: 6em;
         text-align: center;
         display: block;
         align-items: center;
         justify-content: center;
     }
+    .section-home{
+        height: 40em;
+        display: flex;
+    }
+    
 
     .all-header {
         justify-content: space-between;
