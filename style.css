@@ -695,11 +695,19 @@ footer{
     }
 
     .arrow {
+        margin-top: 2em;
         top: 77%;
     }
 
     .h-all-home {
-        top: 55%;
+    
+        transform: translate(-50%, -50%);
+        top: 60%;
+        left: 50%;
+        text-align: center;
+        display: block;
+        align-items: center;
+        justify-content: center;
     }
 
     .all-header {
@@ -992,9 +1000,6 @@ footer{
         width: 100%;
     }
 
-    .h-all-home{
-        margin-bottom: 3em;
-    }
 
     p{
         font-size: 12px;
@@ -1064,6 +1069,10 @@ footer{
 
   .qr-img-desc{
     width: 50%;
+  }
+  .h-all-home{
+    position: absolute;
+
   }
 
 }
