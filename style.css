@@ -16,8 +16,8 @@ html{
 }
 
 html, body {
-    max-width: 100%;
     overflow-x: hidden;
+    overflow-anchor: none;
 }
 
 .ul-header{
@@ -42,6 +42,10 @@ html, body {
 
 .all-header{
     display: flex;
+}
+
+.h2-home{
+    opacity: 0.5%;
 }
 
 a>img{
@@ -644,10 +648,21 @@ footer{
     top: 0;
 }
 
+.secundary-section, .tertiary_section, .quaternary_section {
+    height: auto;
+    min-height: 100vh;
+}
+
+.h3-qrcode{
+    font-size: 20px;
+}
+
 @media screen and (max-width: 600px) {
     .menu-toggle {
         display: block;
     }
+
+
 
     .ul-header {
         display: none;
@@ -980,8 +995,28 @@ footer{
     .h-all-home{
         margin-bottom: 3em;
     }
+
+    p{
+        font-size: 12px;
+    }
 }
 
+@media screen and (min-width: 600px) and (max-width: 1225px){
+    .img1-tertiary-section{
+        display: none;
+    }
+
+  .content-tertiary-section{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-secundary-section{
+    width: 50%;
+  }
+
+}
 @media screen and (min-width: 992px) and (max-width: 1600px) {
     .content-secundary-section {
         margin-left: 0em;
